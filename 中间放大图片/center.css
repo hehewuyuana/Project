@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#imgBox{
+	width:240px;
+	margin:0 auto;
+}
+#imgBox ul{
+	position:relative;
+	width:100%;
+	list-style:none;
+}
+#imgBox ul:after{
+	clear:both;
+	display:block;
+	visibility:hidden;
+	height:0;
+	line-height:0;
+	content:"";
+}
+#imgBox ul li{
+	float:left;
+	width:70px;
+	height:70px;
+	margin:5px;
+	overflow:hidden;
+}
