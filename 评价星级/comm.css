@@ -1,0 +1,32 @@
+#comm_star *{
+	padding:0;
+	margin:0;
+}
+
+#comm_star{
+	width:135px;
+	height:66px;
+	margin:0 auto;
+}
+#comm_star ul{
+	width:135px;
+	height:28px;
+	list-style:none;
+}
+#comm_star li{
+	float:left;
+	width:27px;
+	height:28px;
+}
+#comm_star li a{
+	display:block;
+	width:27px;
+	height:28px;
+	overflow:hidden;
+}
+#comm_star .state{
+	float:left;
+	height:28px;
+	margin-top:10px;
+	font-size:normal 20px/28px "微软雅黑",Times;
+}
