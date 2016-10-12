@@ -1,0 +1,72 @@
+ *{
+	padding:0;
+	margin:0;
+}
+#menu{
+	margin:0 auto;
+	width:149px;
+	font:normal 12px/1.5 "微软雅黑",Times;
+	background:#8e9eb1;
+}
+
+
+/*一级菜单css设置*/
+#menu ul.first_menu {
+	width:149px;
+	list-style:none;
+}
+ ul.first_menu > li{
+	width:149px;
+	height:22px;
+	line-height:22px;
+	border-top:1px solid #a2b4c9;
+	border-bottom:1px solid #708195;
+	overflow:hidden;
+
+}
+ul.first_menu > li img{
+	margin:0 10px 0 10px;
+}
+ ul.first_menu > li:hover{
+	background:url(images/navLink.gif) repeat-x 0 0;
+}
+ ul.first_menu > li span{
+	color:#ffffff;
+}
+/*一级菜单css设置结束*/
+
+
+/*二级菜单css设置*/
+#menu li ul{
+	width:149px;
+	height:92px;
+	list-style:none;
+}
+li ul li{
+	width:149px;
+	height:22px;
+	line-height:22px;
+	border-top:1px solid #a2b4c9;
+	border-top:1px solid #708195;
+	background:url(images/menu.gif) repeat-x 0 0;
+}
+li ul li img{
+	margin:0 5px 0 0;
+}
+li ul li a{
+	padding-left:20px;
+	text-decoration:none;
+	color:#6b7f97;
+}
+li ul li a:hover{
+	text-decoration:underline;
+}
+
+
+/*二级菜单css设置结束*/
+
+
+
+
+
+
