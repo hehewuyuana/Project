@@ -1,0 +1,58 @@
+#scroll_img *{
+	padding:0;
+	margin:0;
+}
+
+#scroll_img{
+	width:860px;
+	height:113px;
+	margin:0 auto;
+	font:normal 12px/1.5 "微软雅黑","宋体","Times";
+}
+
+#scroll_img .bt{
+	float:left;
+	width:64px;
+	height:64px;
+	margin:25px 0;
+	background:url(images/btn.jpg) no-repeat 0 0;
+}
+#scroll_img .bt{
+	cursor:pointer;
+}
+#scroll_img .bt1{
+	background-position:-70px 0;
+}
+#scroll_img .bt1:hover{
+	background-position:-70px -69px;
+}
+#scroll_img .bt2:hover{
+	background-position:0 -69px;
+}
+
+
+
+#scroll_img .images{
+	position:relative;
+	float:left;
+	width:712px;
+	height:113px;
+	margin:0 10px;
+	overflow:hidden;
+}
+.images ul{
+	position:absolute;
+	width:712px;
+	height:113px;
+	list-style:none;
+}
+.images ul li{
+	float:left;
+	width:178px;
+	height:100%;
+	cursor:pointer;
+}
+.images ul li a:hover{
+	position:relative;
+	top:2px;
+}
