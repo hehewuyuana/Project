@@ -1,4 +1,4 @@
- *{
+﻿ *{
 	padding:0;
 	margin:0;
 }
@@ -22,7 +22,7 @@
 	border-top:1px solid #a2b4c9;
 	border-bottom:1px solid #708195;
 	overflow:hidden;
-
+	cursor:pointer;
 }
 ul.first_menu > li img{
 	margin:0 10px 0 10px;

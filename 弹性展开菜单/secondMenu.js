@@ -1,4 +1,4 @@
-window.onload=function(){
+﻿window.onload=function(){
 	var oMenu=document.getElementById("menu");
 	var aLi=document.getElementsByClassName("first_nav"); //每一个一级菜单菜单项
 	var oUl=aLi[0].getElementsByTagName("ul")[0];  //一级菜单项下的二级菜单
@@ -15,8 +15,11 @@ window.onload=function(){
 			if(this.flag){
 				//展开当前菜单项的二级菜单，收缩其他项的二级菜单
 				for(var j=0;j<aLi.length;j++){
+					if(j!=this.index){
+						aLi[j].flag=true;
+					}
 					clearInterval(aLi[j].oTimer);
-					startMove(aLi[j],{height:iH1},8);	 
+					startMove(aLi[j],{height:iH1},8);
 				}
 				springMove(this,"height",iH1+iH2);
 				this.flag=false;
